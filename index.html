@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="jquery-3.1.1.js"></script>
+    <title>Ping Pong</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="calculator-form">
+        <div class="row">
+          <!-- number1 start -->
+          <div class="col-5-sm">
+            <div class="form-group">
+              <label for="number1">Enter number 1:</label>
+              <input id="number1" type="number">
+            </div>
+          </div>
+          <!-- combobox/dropdown -->
+          <div class="col-2-sm">
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose your function
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Add</a></li>
+                <li><a href="#">Substract</a></li>
+                <li><a href="#">Multiply</a></li>
+                <li><a href="#">Divide</a></li>
+              </ul>
+            </div>
+          </div>
+            <!-- number2 start -->
+          <div class="col-5-sm">
+            <div class="form-group">
+              <label for="number2">Enter number 2:</label>
+              <input id="number2" type="number">
+            </div>
+          </div>
+        </div>
+      </form>
+      <form id="ping-pong-form">
+        <label for="goal">Enter a number:</label>
+        <input id="goal" type="number">
+        <button type="submit">Submit</button>
+      </form>
+      <form id="signup">
+        <label for="email">Enter your email:</label>
+        <input id="email" type="text">
+        <button type="submit">Submit</button>
+      </form>
+      <ul id="solution"></ul>
+    </div>
+  </body>
+</html>
